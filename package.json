@@ -1,0 +1,31 @@
+{
+  "name": "romberg",
+  "version": "1.0.0",
+  "description": "Applies the Romberg iteration algorithm.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aehmlo/romberg.git"
+  },
+  "keywords": [
+    "rhomberg",
+    "integral",
+    "approximation"
+  ],
+  "author": "Alex <npm@aehmlo.me> (https://aehmlo.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aehmlo/rhomberg/issues"
+  },
+  "homepage": "https://github.com/aehmlo/rhomberg#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
